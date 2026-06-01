@@ -7,7 +7,7 @@ A partir de datos geográficos (coordenadas de latitud y longitud) y registros r
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El repositorio está integrado por los siguientes archivos clave:
 
@@ -18,7 +18,7 @@ El repositorio está integrado por los siguientes archivos clave:
 
 ---
 
-## 🧮 Modelado Matemático y Algoritmos
+##  Modelado Matemático y Algoritmos
 
 ### 1. Construcción del Grafo y Matriz de Adyacencia ($A$)
 Se genera un grafo dirigido donde cada nodo representa un museo. Para conectar los museos, se asume que un visitante en el museo $i$ solo elegirá desplazarse a uno de sus $m$ vecinos más cercanos (según distancia euclidiana). La matriz de adyacencia de tamaño $N \times N$ se define como:
@@ -65,7 +65,7 @@ $$\frac{\|\Delta v\|_1}{\|v\|_1} \le \text{cond}_1(B) \cdot \frac{\|\Delta w\|_1
 
 ---
 
-## 🛠️ Biblioteca de Funciones (`template_funciones.py`)
+##  Biblioteca de Funciones (`template_funciones.py`)
 
 El archivo contiene las siguientes rutinas desarrolladas desde cero:
 *   `construye_adyacencia(D, m)`: Construye la matriz de adyacencia del grafo basándose en la matriz de distancias $D$ y el límite de enlaces $m$.
@@ -79,7 +79,7 @@ El archivo contiene las siguientes rutinas desarrolladas desde cero:
 
 ---
 
-## 🚀 Requisitos e Instrucciones de Uso
+##  Requisitos e Instrucciones de Uso
 
 ### Requisitos Previos
 Es necesario contar con Python 3.8+ y las siguientes bibliotecas del ecosistema científico instaladas:
